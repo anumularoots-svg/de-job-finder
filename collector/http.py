@@ -17,6 +17,14 @@ class RobotsBlocked(Exception):
     pass
 
 
+# Official, documented job APIs that the provider publishes for developers.
+# Their robots.txt is aimed at web crawlers, not at registered API use, so the
+# robots check is skipped for these hosts only (approved by the owner).
+#   api.adzuna.com  - official API, used with our registered app_id/app_key
+#   api.ashbyhq.com - Ashby's public Job Posting API, documented for job boards
+OFFICIAL_API_HOSTS = {"api.adzuna.com", "api.ashbyhq.com"}
+
+
 class HttpClient:
     def __init__(self):
         self.s = requests.Session()
@@ -26,6 +34,8 @@ class HttpClient:
 
     def allowed(self, url):
         p = urlparse(url)
+        if p.netloc in OFFICIAL_API_HOSTS:
+            return True
         base = f"{p.scheme}://{p.netloc}"
         if base not in self._robots:
             rp = urllib.robotparser.RobotFileParser()
