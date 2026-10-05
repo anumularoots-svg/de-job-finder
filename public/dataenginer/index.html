@@ -154,7 +154,7 @@ footer{font-size:12.5px;color:var(--muted);text-align:center}
     <label class="f" for="posted">Posted within<select id="posted">
       <option value="24">Last 24 hours</option><option value="72">Last 3 days</option><option value="168">Last 7 days</option><option value="336">Last 14 days</option></select></label>
     <label class="f" for="exp">My experience<select id="exp">
-      <option value="">Any</option><option value="2">2 years</option><option value="3">3 years</option><option value="4">4 years</option><option value="5">5 years</option><option value="7">7 years</option><option value="10">10+ years</option></select></label>
+      <option value="">Any</option><option value="2">2 years</option><option value="3">3 years (show jobs asking up to 3+)</option><option value="4">4 years</option><option value="5">5 years</option><option value="7">7 years</option><option value="10">10+ years</option></select></label>
     <label class="f" for="src">Source<select id="src"><option value="">All sources</option></select></label>
   </div>
   <div class="chiprow" id="w2chips"><span class="lab">W-2</span></div>
@@ -163,6 +163,7 @@ footer{font-size:12.5px;color:var(--muted);text-align:center}
   <div class="chiprow">
     <span class="lab">Show</span>
     <label class="ck"><input type="checkbox" id="hideApplied" checked> Hide jobs I applied to</label>
+    <label class="ck"><input type="checkbox" id="hideSenior" checked> Hide Senior / Lead / Staff / Principal</label>
     <label class="ck"><input type="checkbox" id="noSponsorOk" > Hide "no sponsorship" jobs</label>
     <button class="linkbtn" id="reset" type="button">Reset filters</button>
   </div>
@@ -234,9 +235,10 @@ const W2 = {
 const WORK = ["Remote","Hybrid","On-site","Not stated"];
 const TOP_SKILLS = ["Python","SQL","Spark","PySpark","Databricks","Snowflake","AWS","Azure","GCP","Airflow","dbt","Kafka","Scala","ETL"];
 const STATUSES = ["Saved","Applied","Interview","Offer","Rejected"];
-const DEFAULTS = {q:"",loc:"",posted:"24",exp:"",src:"",w2:["W2_CONFIRMED","DIRECT_FT","UNKNOWN"],work:[],skills:[],hideApplied:true,noSponsorOk:false};
+const DEFAULTS = {q:"",loc:"",posted:"24",exp:"3",src:"",w2:["W2_CONFIRMED","DIRECT_FT","UNKNOWN"],work:[],skills:[],hideApplied:true,noSponsorOk:false,hideSenior:true};
+const SENIOR_RX = /\b(senior|sr\.?|staff|principal|lead|architect|director|head|manager|vp|expert)\b/i;
 
-let state = Object.assign({}, DEFAULTS, store.get("dejf-filters", {}));
+let state = Object.assign({}, DEFAULTS, store.get("dejf-filters-v2", {}));
 let DATASET = {meta:null, jobs:[]}, SOURCES = null, shown = 40;
 let tracker = store.get("dejf-tracker", {});   // key: url -> {title, company, url, status, updated}
 
@@ -264,16 +266,17 @@ function chip(container, value, label, group, extraCls){
 }
 function buildFilterUI(){
   for(const k of ["q","loc","posted","exp","src"]) $(k).value = state[k];
-  $("hideApplied").checked = state.hideApplied; $("noSponsorOk").checked = state.noSponsorOk;
+  $("hideApplied").checked = state.hideApplied; $("noSponsorOk").checked = state.noSponsorOk; $("hideSenior").checked = state.hideSenior;
   for(const id of ["w2chips","workchips","skillchips"]) $(id).querySelectorAll(".chip").forEach(c=>c.remove());
   for(const [k,v] of Object.entries(W2)) chip($("w2chips"), k, v.label, "w2", v.chip);
   WORK.forEach(w => chip($("workchips"), w, w, "work"));
   TOP_SKILLS.forEach(s => chip($("skillchips"), s, s, "skills"));
 }
-function changed(){ shown = 40; store.set("dejf-filters", state); render(); }
+function changed(){ shown = 40; store.set("dejf-filters-v2", state); render(); }
 for(const k of ["q","loc","posted","exp","src"]) $(k).addEventListener("input", e => { state[k] = e.target.value; changed(); });
 $("hideApplied").onchange = e => { state.hideApplied = e.target.checked; changed(); };
 $("noSponsorOk").onchange = e => { state.noSponsorOk = e.target.checked; changed(); };
+$("hideSenior").onchange = e => { state.hideSenior = e.target.checked; changed(); };
 $("reset").onclick = () => { state = JSON.parse(JSON.stringify(DEFAULTS)); buildFilterUI(); changed(); };
 
 function matches(j){
@@ -285,6 +288,7 @@ function matches(j){
   if(s.src && !(j.foundOn||[]).includes(s.src)) return false;
   if(s.exp && j.experienceMin != null && j.experienceMin > +s.exp) return false;
   if(s.noSponsorOk && j.sponsorship === "NOT_AVAILABLE") return false;
+  if(s.hideSenior && SENIOR_RX.test(j.title || "")) return false;
   if(s.hideApplied && tracker[j.originalUrl] && tracker[j.originalUrl].status !== "Saved") return false;
   if(s.q){
     const hay = [j.title, j.company, (j.skills||[]).join(" ")].join(" ").toLowerCase();
@@ -329,6 +333,16 @@ function renderTiles(list){
     state.w2 = [b.dataset.w2]; buildFilterUI(); changed(); $("jh").scrollIntoView({behavior:"smooth"});
   });
 }
+function applyButtons(j){
+  const viaAdzuna = /adzuna\./i.test(j.applyUrl || "");
+  if(!viaAdzuna)
+    return `<a class="btn" href="${esc(safeUrl(j.applyUrl))}" target="_blank" rel="noopener" data-apply="${esc(j.originalUrl)}">Apply ↗</a>`;
+  // Adzuna job pages are blocked outside the US, so search for the employer's own posting.
+  const q = `"${j.title}" "${j.company}" job`;
+  const g = "https://www.google.com/search?q=" + encodeURIComponent(q) + "&tbs=qdr:w";
+  return `<a class="btn" href="${esc(g)}" target="_blank" rel="noopener" data-apply="${esc(j.originalUrl)}" title="Searches for the original posting on the employer, Dice or LinkedIn">Find original ↗</a>
+    <a class="linkbtn" style="text-align:center" href="${esc(safeUrl(j.applyUrl))}" target="_blank" rel="noopener">Adzuna page (US only)</a>`;
+}
 function jobCard(j){
   const w = W2[j.w2Status] || W2.UNKNOWN;
   const t = tracker[j.originalUrl];
@@ -354,7 +368,7 @@ function jobCard(j){
       ${why}
     </div>
     <div class="side">
-      <a class="btn" href="${esc(safeUrl(j.applyUrl))}" target="_blank" rel="noopener" data-apply="${esc(j.originalUrl)}">Apply ↗</a>
+      ${applyButtons(j)}
       <select aria-label="Track this job" data-track="${esc(j.originalUrl)}">
         <option value="">Track…</option>${STATUSES.map(s => `<option${t && t.status===s ? " selected":""}>${s}</option>`).join("")}
       </select>
