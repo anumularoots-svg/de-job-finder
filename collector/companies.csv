@@ -27,16 +27,12 @@ greenhouse,gusto,Gusto,yes
 greenhouse,asana,Asana,yes
 greenhouse,airtable,Airtable,yes
 greenhouse,squarespace,Squarespace,yes
-greenhouse,grammarly,Grammarly,yes
 greenhouse,duolingo,Duolingo,yes
 greenhouse,anthropic,Anthropic,yes
-greenhouse,dbtlabsinc,dbt Labs,yes
 greenhouse,fivetran,Fivetran,yes
 greenhouse,webflow,Webflow,yes
 greenhouse,roku,Roku,yes
-greenhouse,nerdwallet,NerdWallet,yes
 greenhouse,sofi,SoFi,yes
-greenhouse,marqeta,Marqeta,yes
 greenhouse,toast,Toast,yes
 greenhouse,peloton,Peloton,yes
 greenhouse,flexport,Flexport,yes
@@ -44,16 +40,10 @@ greenhouse,scaleai,Scale AI,yes
 greenhouse,verkada,Verkada,yes
 greenhouse,carta,Carta,yes
 greenhouse,lattice,Lattice,yes
-greenhouse,hightouch,Hightouch,yes
 greenhouse,starburst,Starburst,yes
 greenhouse,cockroachlabs,Cockroach Labs,yes
 greenhouse,singlestore,SingleStore,yes
-greenhouse,clickhouse,ClickHouse,yes
 greenhouse,dremio,Dremio,yes
-greenhouse,alation,Alation,yes
-greenhouse,montecarlodata,Monte Carlo,yes
-greenhouse,astronomer,Astronomer,yes
-greenhouse,tempus,Tempus AI,yes
 greenhouse,oscar,Oscar Health,yes
 greenhouse,flatironhealth,Flatiron Health,yes
 greenhouse,calendly,Calendly,yes
@@ -62,17 +52,13 @@ greenhouse,epicgames,Epic Games,yes
 greenhouse,riotgames,Riot Games,yes
 greenhouse,roblox,Roblox,yes
 greenhouse,nextdoor,Nextdoor,yes
-greenhouse,thumbtack,Thumbtack,yes
 greenhouse,hubspot,HubSpot,yes
 greenhouse,vercel,Vercel,yes
 greenhouse,mercury,Mercury,yes
 greenhouse,checkr,Checkr,yes
-greenhouse,navan,Navan,yes
 greenhouse,faire,Faire,yes
 lever,palantir,Palantir,yes
 lever,spotify,Spotify,yes
-lever,plaid,Plaid,yes
-lever,netflix,Netflix,yes
 lever,kraken,Kraken,yes
 lever,wealthfront,Wealthfront,yes
 lever,outreach,Outreach,yes
@@ -81,22 +67,22 @@ lever,whoop,WHOOP,yes
 lever,ro,Ro,yes
 lever,zoox,Zoox,yes
 lever,mistral,Mistral AI,yes
-ashby,ramp,Ramp,yes
-ashby,notion,Notion,yes
-ashby,openai,OpenAI,yes
-ashby,linear,Linear,yes
-ashby,supabase,Supabase,yes
-ashby,snowflake,Snowflake,yes
-ashby,confluent,Confluent,yes
-ashby,deel,Deel,yes
-ashby,posthog,PostHog,yes
-ashby,replit,Replit,yes
-ashby,anysphere,Cursor,yes
-ashby,perplexity,Perplexity,yes
-ashby,elevenlabs,ElevenLabs,yes
-ashby,harvey,Harvey,yes
-ashby,hex,Hex,yes
-ashby,modal,Modal,yes
-smartrecruiters,Visa,Visa,yes
-smartrecruiters,BoschGroup,Bosch,yes
-smartrecruiters,ServiceNow,ServiceNow,yes
+ashby,ramp,Ramp,no
+ashby,notion,Notion,no
+ashby,openai,OpenAI,no
+ashby,linear,Linear,no
+ashby,supabase,Supabase,no
+ashby,snowflake,Snowflake,no
+ashby,confluent,Confluent,no
+ashby,deel,Deel,no
+ashby,posthog,PostHog,no
+ashby,replit,Replit,no
+ashby,anysphere,Cursor,no
+ashby,perplexity,Perplexity,no
+ashby,elevenlabs,ElevenLabs,no
+ashby,harvey,Harvey,no
+ashby,hex,Hex,no
+ashby,modal,Modal,no
+smartrecruiters,Visa,Visa,no
+smartrecruiters,BoschGroup,Bosch,no
+smartrecruiters,ServiceNow,ServiceNow,no
