@@ -1,0 +1,88 @@
+ats,token,company,enabled
+greenhouse,airbnb,Airbnb,yes
+greenhouse,stripe,Stripe,yes
+greenhouse,databricks,Databricks,yes
+greenhouse,doordashusa,DoorDash,yes
+greenhouse,robinhood,Robinhood,yes
+greenhouse,coinbase,Coinbase,yes
+greenhouse,dropbox,Dropbox,yes
+greenhouse,pinterest,Pinterest,yes
+greenhouse,lyft,Lyft,yes
+greenhouse,instacart,Instacart,yes
+greenhouse,reddit,Reddit,yes
+greenhouse,discord,Discord,yes
+greenhouse,figma,Figma,yes
+greenhouse,gitlab,GitLab,yes
+greenhouse,twilio,Twilio,yes
+greenhouse,cloudflare,Cloudflare,yes
+greenhouse,datadog,Datadog,yes
+greenhouse,mongodb,MongoDB,yes
+greenhouse,okta,Okta,yes
+greenhouse,elastic,Elastic,yes
+greenhouse,samsara,Samsara,yes
+greenhouse,affirm,Affirm,yes
+greenhouse,brex,Brex,yes
+greenhouse,chime,Chime,yes
+greenhouse,gusto,Gusto,yes
+greenhouse,asana,Asana,yes
+greenhouse,airtable,Airtable,yes
+greenhouse,squarespace,Squarespace,yes
+greenhouse,duolingo,Duolingo,yes
+greenhouse,anthropic,Anthropic,yes
+greenhouse,fivetran,Fivetran,yes
+greenhouse,webflow,Webflow,yes
+greenhouse,roku,Roku,yes
+greenhouse,sofi,SoFi,yes
+greenhouse,toast,Toast,yes
+greenhouse,peloton,Peloton,yes
+greenhouse,flexport,Flexport,yes
+greenhouse,scaleai,Scale AI,yes
+greenhouse,verkada,Verkada,yes
+greenhouse,carta,Carta,yes
+greenhouse,lattice,Lattice,yes
+greenhouse,starburst,Starburst,yes
+greenhouse,cockroachlabs,Cockroach Labs,yes
+greenhouse,singlestore,SingleStore,yes
+greenhouse,dremio,Dremio,yes
+greenhouse,oscar,Oscar Health,yes
+greenhouse,flatironhealth,Flatiron Health,yes
+greenhouse,calendly,Calendly,yes
+greenhouse,twitch,Twitch,yes
+greenhouse,epicgames,Epic Games,yes
+greenhouse,riotgames,Riot Games,yes
+greenhouse,roblox,Roblox,yes
+greenhouse,nextdoor,Nextdoor,yes
+greenhouse,hubspot,HubSpot,yes
+greenhouse,vercel,Vercel,yes
+greenhouse,mercury,Mercury,yes
+greenhouse,checkr,Checkr,yes
+greenhouse,faire,Faire,yes
+lever,palantir,Palantir,yes
+lever,spotify,Spotify,yes
+lever,kraken,Kraken,yes
+lever,wealthfront,Wealthfront,yes
+lever,outreach,Outreach,yes
+lever,matchgroup,Match Group,yes
+lever,whoop,WHOOP,yes
+lever,ro,Ro,yes
+lever,zoox,Zoox,yes
+lever,mistral,Mistral AI,yes
+ashby,ramp,Ramp,no
+ashby,notion,Notion,no
+ashby,openai,OpenAI,no
+ashby,linear,Linear,no
+ashby,supabase,Supabase,no
+ashby,snowflake,Snowflake,no
+ashby,confluent,Confluent,no
+ashby,deel,Deel,no
+ashby,posthog,PostHog,no
+ashby,replit,Replit,no
+ashby,anysphere,Cursor,no
+ashby,perplexity,Perplexity,no
+ashby,elevenlabs,ElevenLabs,no
+ashby,harvey,Harvey,no
+ashby,hex,Hex,no
+ashby,modal,Modal,no
+smartrecruiters,Visa,Visa,no
+smartrecruiters,BoschGroup,Bosch,no
+smartrecruiters,ServiceNow,ServiceNow,no
