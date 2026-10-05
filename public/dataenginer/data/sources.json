@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-05T09:48:21.184017+00:00",
-  "runStartedAt": "2026-10-05T09:47:52.298777+00:00",
+  "generatedAt": "2026-10-05T09:59:58.240077+00:00",
+  "runStartedAt": "2026-10-05T09:59:12.205843+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 71,
-  "jobCount": 6
+  "recordsFetched": 277,
+  "jobCount": 147
  },
  "sources": {
   "Greenhouse": {
@@ -45,10 +45,10 @@
   },
   "Adzuna": {
    "type": "aggregator",
-   "ok": 0,
-   "jobs": 0,
-   "robotsBlocked": true,
-   "error": "robots.txt on api.adzuna.com disallows automated access"
+   "ok": 1,
+   "jobs": 206,
+   "robotsBlocked": false,
+   "error": ""
   }
  }
 }
