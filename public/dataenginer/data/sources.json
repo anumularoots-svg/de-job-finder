@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-10-05T09:13:48.168340+00:00",
-  "runStartedAt": "2026-10-05T09:13:13.936729+00:00",
+  "generatedAt": "2026-10-05T09:48:21.184017+00:00",
+  "runStartedAt": "2026-10-05T09:47:52.298777+00:00",
   "refreshEveryHours": 2,
   "recordsFetched": 71,
   "jobCount": 6
@@ -9,63 +9,46 @@
  "sources": {
   "Greenhouse": {
    "type": "ats",
-   "companies": 70,
+   "companies": 58,
    "ok": 58,
-   "failed": [
-    "grammarly",
-    "dbtlabsinc",
-    "nerdwallet",
-    "marqeta",
-    "hightouch",
-    "clickhouse",
-    "alation",
-    "montecarlodata",
-    "astronomer",
-    "tempus",
-    "thumbtack",
-    "navan"
-   ],
+   "failed": [],
    "jobs": 61,
    "robotsBlocked": false,
    "error": ""
   },
   "Lever": {
    "type": "ats",
-   "companies": 12,
+   "companies": 10,
    "ok": 10,
-   "failed": [
-    "plaid",
-    "netflix"
-   ],
+   "failed": [],
    "jobs": 10,
    "robotsBlocked": false,
    "error": ""
   },
   "Ashby": {
    "type": "ats",
-   "companies": 16,
+   "companies": 0,
    "ok": 0,
    "failed": [],
    "jobs": 0,
-   "robotsBlocked": true,
-   "error": "robots.txt on api.ashbyhq.com disallows automated access"
+   "robotsBlocked": false,
+   "error": ""
   },
   "SmartRecruiters": {
    "type": "ats",
-   "companies": 3,
+   "companies": 0,
    "ok": 0,
    "failed": [],
    "jobs": 0,
-   "robotsBlocked": true,
-   "error": "robots.txt on api.smartrecruiters.com disallows automated access"
+   "robotsBlocked": false,
+   "error": ""
   },
   "Adzuna": {
    "type": "aggregator",
    "ok": 0,
    "jobs": 0,
-   "robotsBlocked": false,
-   "error": "ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
-   "notConfigured": true
+   "robotsBlocked": true,
+   "error": "robots.txt on api.adzuna.com disallows automated access"
   }
  }
 }
