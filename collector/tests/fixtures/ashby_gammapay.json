@@ -1,0 +1,25 @@
+{
+ "jobs": [
+  {
+   "id": "g-1",
+   "title": "Data Engineer",
+   "location": "Dallas, TX",
+   "secondaryLocations": [],
+   "employmentType": "FullTime",
+   "isRemote": false,
+   "workplaceType": "Hybrid",
+   "isListed": true,
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United States",
+     "addressRegion": "Texas",
+     "addressLocality": "Dallas"
+    }
+   },
+   "publishedAt": "@-50h",
+   "jobUrl": "https://jobs.ashbyhq.com/gammapay/g-1",
+   "applyUrl": "https://jobs.ashbyhq.com/gammapay/g-1/application",
+   "descriptionPlain": "Build payment data pipelines on GCP with BigQuery and Kafka. 4 years of relevant experience. Must be authorized to work in the US without sponsorship now or in the future."
+  }
+ ]
+}

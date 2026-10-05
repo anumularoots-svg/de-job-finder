@@ -1,0 +1,103 @@
+{
+ "results": [
+  {
+   "id": 9001,
+   "title": "Senior Data Engineer",
+   "company": {
+    "display_name": "Acme Analytics"
+   },
+   "location": {
+    "display_name": "Manhattan, New York County",
+    "area": [
+     "US",
+     "New York",
+     "New York County",
+     "Manhattan"
+    ]
+   },
+   "description": "We build the data platform for retail analytics. 5+ years of experience...",
+   "created": "@-2h",
+   "redirect_url": "https://www.adzuna.com/details/9001",
+   "contract_type": "permanent",
+   "contract_time": "full_time"
+  },
+  {
+   "id": 9002,
+   "title": "Data Engineer - W2 Contract",
+   "company": {
+    "display_name": "TekStaff Solutions"
+   },
+   "location": {
+    "display_name": "Dallas, Dallas County",
+    "area": [
+     "US",
+     "Texas",
+     "Dallas County",
+     "Dallas"
+    ]
+   },
+   "description": "Long term contract on W2. Must have 6+ years experience in Python, SQL, AWS, Redshift. USC/GC only...",
+   "created": "@-5h",
+   "redirect_url": "https://www.adzuna.com/details/9002",
+   "contract_type": "contract"
+  },
+  {
+   "id": 9003,
+   "title": "Big Data Engineer",
+   "company": {
+    "display_name": "XYZ Consulting"
+   },
+   "location": {
+    "display_name": "Jersey City, Hudson County",
+    "area": [
+     "US",
+     "New Jersey",
+     "Hudson County",
+     "Jersey City"
+    ]
+   },
+   "description": "C2C only. Hadoop, Hive, Spark, Scala. 8+ years experience...",
+   "created": "@-9h",
+   "redirect_url": "https://www.adzuna.com/details/9003",
+   "contract_type": "contract"
+  },
+  {
+   "id": 9004,
+   "title": "Data Engineer",
+   "company": {
+    "display_name": "Carolina Mutual Insurance"
+   },
+   "location": {
+    "display_name": "Charlotte, Mecklenburg County",
+    "area": [
+     "US",
+     "North Carolina",
+     "Mecklenburg County",
+     "Charlotte"
+    ]
+   },
+   "description": "Our data team is growing. Work with Azure Synapse, SQL and Python...",
+   "created": "@-14h",
+   "redirect_url": "https://www.adzuna.com/details/9004",
+   "contract_type": "permanent",
+   "contract_time": "full_time"
+  },
+  {
+   "id": 9005,
+   "title": "ETL Developer",
+   "company": {
+    "display_name": "Prime IT Partners"
+   },
+   "location": {
+    "display_name": "Remote",
+    "area": [
+     "US"
+    ]
+   },
+   "description": "Remote. 1099 or C2C, no W2 for this one. Informatica, Oracle...",
+   "created": "@-1h",
+   "redirect_url": "https://www.adzuna.com/details/9005",
+   "contract_type": "contract"
+  }
+ ]
+}

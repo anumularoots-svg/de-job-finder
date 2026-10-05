@@ -1,0 +1,38 @@
+[
+ {
+  "id": "b-1",
+  "text": "Data Engineer II",
+  "categories": {
+   "commitment": "Full-time",
+   "location": "Remote - US",
+   "team": "Data"
+  },
+  "workplaceType": "remote",
+  "createdAt": "@ms-20h",
+  "hostedUrl": "https://jobs.lever.co/betahealth/b-1",
+  "applyUrl": "https://jobs.lever.co/betahealth/b-1/apply",
+  "descriptionPlain": "Join our data team.",
+  "lists": [
+   {
+    "text": "Requirements",
+    "content": "<li>3+ years of experience as a data engineer</li><li>Snowflake, dbt, Airflow, Python</li>"
+   }
+  ],
+  "additionalPlain": "H-1B sponsorship available for qualified candidates."
+ },
+ {
+  "id": "b-2",
+  "text": "Analytics Engineer",
+  "categories": {
+   "commitment": "Contract",
+   "location": "Chicago, IL"
+  },
+  "workplaceType": "onsite",
+  "createdAt": "@ms-30h",
+  "hostedUrl": "https://jobs.lever.co/betahealth/b-2",
+  "applyUrl": "https://jobs.lever.co/betahealth/b-2/apply",
+  "descriptionPlain": "6 month engagement. Two years experience with SQL and Looker.",
+  "lists": [],
+  "additionalPlain": ""
+ }
+]

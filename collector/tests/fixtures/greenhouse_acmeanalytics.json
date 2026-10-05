@@ -1,0 +1,74 @@
+{
+ "jobs": [
+  {
+   "id": 101,
+   "title": "Senior Data Engineer",
+   "company_name": "Acme Analytics Inc.",
+   "location": {
+    "name": "New York, NY"
+   },
+   "absolute_url": "https://boards.greenhouse.io/acmeanalytics/jobs/101",
+   "updated_at": "@-3h",
+   "first_published": "@-3h",
+   "metadata": [
+    {
+     "name": "Employment Type",
+     "value": "Full-time"
+    }
+   ],
+   "content": "&lt;p&gt;We build the data platform for retail analytics.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+ years of experience building pipelines with Python and Spark&lt;/li&gt;&lt;li&gt;Snowflake, Airflow and AWS (Glue jobs, EMR)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We are unable to sponsor visas for this role.&lt;/p&gt;"
+  },
+  {
+   "id": 102,
+   "title": "Data Engineer (Contract)",
+   "company_name": "Acme Analytics Inc.",
+   "location": {
+    "name": "Austin, TX"
+   },
+   "absolute_url": "https://boards.greenhouse.io/acmeanalytics/jobs/102",
+   "updated_at": "@-6h",
+   "first_published": "@-6h",
+   "metadata": [],
+   "content": "&lt;p&gt;12 month contract. W2 only, no C2C. Hybrid, 3 days in office.&lt;/p&gt;&lt;p&gt;Minimum of 3 years experience with SQL, PySpark and Databricks on Azure (ADF).&lt;/p&gt;"
+  },
+  {
+   "id": 103,
+   "title": "Data Engineer",
+   "company_name": "Acme Analytics Inc.",
+   "location": {
+    "name": "London, United Kingdom"
+   },
+   "absolute_url": "https://boards.greenhouse.io/acmeanalytics/jobs/103",
+   "updated_at": "@-2h",
+   "first_published": "@-2h",
+   "metadata": [],
+   "content": "&lt;p&gt;London role.&lt;/p&gt;"
+  },
+  {
+   "id": 104,
+   "title": "Engineering Manager, Data Engineering",
+   "company_name": "Acme Analytics Inc.",
+   "location": {
+    "name": "New York, NY"
+   },
+   "absolute_url": "https://boards.greenhouse.io/acmeanalytics/jobs/104",
+   "updated_at": "@-2h",
+   "first_published": "@-2h",
+   "metadata": [],
+   "content": ""
+  },
+  {
+   "id": 105,
+   "title": "Account Executive",
+   "company_name": "Acme Analytics Inc.",
+   "location": {
+    "name": "New York, NY"
+   },
+   "absolute_url": "https://boards.greenhouse.io/acmeanalytics/jobs/105",
+   "updated_at": "@-2h",
+   "first_published": "@-2h",
+   "metadata": [],
+   "content": ""
+  }
+ ]
+}

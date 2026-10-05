@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/", "destination": "/dataenginer", "permanent": false },
+    { "source": "/dataengineer", "destination": "/dataenginer", "permanent": true },
+    { "source": "/dataengineer/:path*", "destination": "/dataenginer/:path*", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/dataenginer/data/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+    }
+  ]
+}
