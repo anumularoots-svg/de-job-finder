@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-06T16:40:31.883163+00:00",
-  "runStartedAt": "2026-10-06T16:39:54.198834+00:00",
+  "generatedAt": "2026-10-06T22:36:48.601513+00:00",
+  "runStartedAt": "2026-10-06T22:36:03.806318+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 236,
-  "jobCount": 392
+  "recordsFetched": 268,
+  "jobCount": 484
  },
  "sources": {
   "Greenhouse": {
@@ -14,7 +14,7 @@
    "failed": [
     "hubspot"
    ],
-   "jobs": 66,
+   "jobs": 68,
    "robotsBlocked": false,
    "error": ""
   },
@@ -48,7 +48,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 160,
+   "jobs": 190,
    "robotsBlocked": false,
    "error": ""
   }
