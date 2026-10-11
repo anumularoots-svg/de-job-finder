@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-11T18:46:51.747458+00:00",
-  "runStartedAt": "2026-10-11T18:46:14.633447+00:00",
+  "generatedAt": "2026-10-11T23:36:24.400591+00:00",
+  "runStartedAt": "2026-10-11T23:35:22.172972+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 284,
-  "jobCount": 539
+  "recordsFetched": 272,
+  "jobCount": 515
  },
  "sources": {
   "Greenhouse": {
@@ -21,9 +21,11 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 10,
-   "failed": [],
-   "jobs": 11,
+   "ok": 9,
+   "failed": [
+    "spotify"
+   ],
+   "jobs": 9,
    "robotsBlocked": false,
    "error": ""
   },
@@ -48,7 +50,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 210,
+   "jobs": 200,
    "robotsBlocked": false,
    "error": ""
   }
