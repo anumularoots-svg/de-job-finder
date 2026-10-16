@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-15T21:16:55.674493+00:00",
-  "runStartedAt": "2026-10-15T21:16:10.223507+00:00",
+  "generatedAt": "2026-10-16T00:16:27.581063+00:00",
+  "runStartedAt": "2026-10-16T00:15:47.293632+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 222,
-  "jobCount": 628
+  "recordsFetched": 203,
+  "jobCount": 642
  },
  "sources": {
   "Greenhouse": {
@@ -48,7 +48,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 151,
+   "jobs": 132,
    "robotsBlocked": false,
    "error": ""
   }
