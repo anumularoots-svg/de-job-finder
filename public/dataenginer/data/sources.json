@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-20T11:24:11.224071+00:00",
-  "runStartedAt": "2026-10-20T11:23:09.606841+00:00",
+  "generatedAt": "2026-10-20T16:48:48.330789+00:00",
+  "runStartedAt": "2026-10-20T16:48:14.446025+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 157,
-  "jobCount": 252
+  "recordsFetched": 158,
+  "jobCount": 263
  },
  "sources": {
   "Greenhouse": {
@@ -14,7 +14,7 @@
    "failed": [
     "hubspot"
    ],
-   "jobs": 64,
+   "jobs": 65,
    "robotsBlocked": false,
    "error": ""
   },
