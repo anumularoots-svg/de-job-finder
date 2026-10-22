@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-22T11:39:10.392006+00:00",
-  "runStartedAt": "2026-10-22T11:38:21.169190+00:00",
+  "generatedAt": "2026-10-22T17:04:39.441679+00:00",
+  "runStartedAt": "2026-10-22T17:03:08.527391+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 195,
-  "jobCount": 410
+  "recordsFetched": 166,
+  "jobCount": 437
  },
  "sources": {
   "Greenhouse": {
@@ -21,9 +21,11 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 10,
-   "failed": [],
-   "jobs": 9,
+   "ok": 9,
+   "failed": [
+    "zoox"
+   ],
+   "jobs": 7,
    "robotsBlocked": false,
    "error": ""
   },
@@ -48,7 +50,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 124,
+   "jobs": 97,
    "robotsBlocked": false,
    "error": ""
   }
