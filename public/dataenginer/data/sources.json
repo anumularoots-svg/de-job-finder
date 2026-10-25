@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-25T11:13:36.799638+00:00",
-  "runStartedAt": "2026-10-25T11:12:42.968260+00:00",
+  "generatedAt": "2026-10-25T16:01:05.314456+00:00",
+  "runStartedAt": "2026-10-25T15:59:48.753848+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 171,
-  "jobCount": 392
+  "recordsFetched": 64,
+  "jobCount": 360
  },
  "sources": {
   "Greenhouse": {
@@ -21,9 +21,11 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 10,
-   "failed": [],
-   "jobs": 9,
+   "ok": 9,
+   "failed": [
+    "palantir"
+   ],
+   "jobs": 8,
    "robotsBlocked": false,
    "error": ""
   },
@@ -47,10 +49,10 @@
   },
   "Adzuna": {
    "type": "aggregator",
-   "ok": 1,
-   "jobs": 106,
+   "ok": 0,
+   "jobs": 0,
    "robotsBlocked": false,
-   "error": ""
+   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/us/search/3?app_id=459345f3&app_key=7a18d7c25ab009e256cec346f26bfa22&what_phrase=data+engineer&max_days_old=3&sort_by=date&results_per_page=50&content-type=application%2Fjson"
   }
  }
 }
