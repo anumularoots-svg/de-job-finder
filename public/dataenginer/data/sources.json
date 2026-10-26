@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-10-26T04:31:33.379992+00:00",
-  "runStartedAt": "2026-10-26T04:30:36.446230+00:00",
+  "generatedAt": "2026-10-26T12:48:33.782526+00:00",
+  "runStartedAt": "2026-10-26T12:47:26.206096+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 142,
-  "jobCount": 299
+  "recordsFetched": 147,
+  "jobCount": 279
  },
  "sources": {
   "Greenhouse": {
@@ -21,8 +21,10 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 10,
-   "failed": [],
+   "ok": 9,
+   "failed": [
+    "wealthfront"
+   ],
    "jobs": 9,
    "robotsBlocked": false,
    "error": ""
@@ -48,7 +50,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 77,
+   "jobs": 82,
    "robotsBlocked": false,
    "error": ""
   }
