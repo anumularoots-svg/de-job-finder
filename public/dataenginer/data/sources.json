@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-05T09:23:07.311098+00:00",
-  "runStartedAt": "2026-11-05T09:21:40.042307+00:00",
+  "generatedAt": "2026-11-05T17:57:37.328301+00:00",
+  "runStartedAt": "2026-11-05T17:56:59.954998+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 227,
-  "jobCount": 347
+  "recordsFetched": 226,
+  "jobCount": 395
  },
  "sources": {
   "Greenhouse": {
@@ -21,9 +21,8 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 8,
+   "ok": 9,
    "failed": [
-    "outreach",
     "mistral"
    ],
    "jobs": 8,
@@ -51,7 +50,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 160,
+   "jobs": 159,
    "robotsBlocked": false,
    "error": ""
   }
