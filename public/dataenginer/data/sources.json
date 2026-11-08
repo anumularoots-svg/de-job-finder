@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-08T16:37:18.104271+00:00",
-  "runStartedAt": "2026-11-08T16:36:39.086459+00:00",
+  "generatedAt": "2026-11-08T21:57:06.934906+00:00",
+  "runStartedAt": "2026-11-08T21:56:29.382784+00:00",
   "refreshEveryHours": 2,
   "recordsFetched": 147,
-  "jobCount": 447
+  "jobCount": 435
  },
  "sources": {
   "Greenhouse": {
