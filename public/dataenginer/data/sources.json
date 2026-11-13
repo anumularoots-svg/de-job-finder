@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-13T01:00:57.937240+00:00",
-  "runStartedAt": "2026-11-13T00:59:45.667569+00:00",
+  "generatedAt": "2026-11-13T09:25:31.213462+00:00",
+  "runStartedAt": "2026-11-13T09:24:52.818866+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 69,
-  "jobCount": 308
+  "recordsFetched": 188,
+  "jobCount": 285
  },
  "sources": {
   "Greenhouse": {
@@ -14,7 +14,7 @@
    "failed": [
     "hubspot"
    ],
-   "jobs": 61,
+   "jobs": 62,
    "robotsBlocked": false,
    "error": ""
   },
@@ -49,10 +49,10 @@
   },
   "Adzuna": {
    "type": "aggregator",
-   "ok": 0,
-   "jobs": 0,
+   "ok": 1,
+   "jobs": 118,
    "robotsBlocked": false,
-   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=459345f3&app_key=7a18d7c25ab009e256cec346f26bfa22&what_phrase=big+data+engineer&max_days_old=3&sort_by=date&results_per_page=50&content-type=application%2Fjson"
+   "error": ""
   }
  }
 }
