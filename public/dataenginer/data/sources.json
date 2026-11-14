@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-14T06:04:57.516664+00:00",
-  "runStartedAt": "2026-11-14T06:04:26.332221+00:00",
+  "generatedAt": "2026-11-14T13:24:33.929812+00:00",
+  "runStartedAt": "2026-11-14T13:23:51.759116+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 69,
-  "jobCount": 255
+  "recordsFetched": 158,
+  "jobCount": 234
  },
  "sources": {
   "Greenhouse": {
@@ -49,10 +49,10 @@
   },
   "Adzuna": {
    "type": "aggregator",
-   "ok": 0,
-   "jobs": 0,
+   "ok": 1,
+   "jobs": 89,
    "robotsBlocked": false,
-   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=459345f3&app_key=7a18d7c25ab009e256cec346f26bfa22&what_phrase=data+engineer&max_days_old=3&sort_by=date&results_per_page=50&content-type=application%2Fjson"
+   "error": ""
   }
  }
 }
