@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-16T01:50:30.867259+00:00",
-  "runStartedAt": "2026-11-16T01:49:58.042392+00:00",
+  "generatedAt": "2026-11-16T09:27:23.537694+00:00",
+  "runStartedAt": "2026-11-16T09:26:12.021106+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 136,
-  "jobCount": 160
+  "recordsFetched": 111,
+  "jobCount": 168
  },
  "sources": {
   "Greenhouse": {
@@ -21,11 +21,12 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 9,
+   "ok": 8,
    "failed": [
+    "ro",
     "mistral"
    ],
-   "jobs": 8,
+   "jobs": 7,
    "robotsBlocked": false,
    "error": ""
   },
@@ -50,7 +51,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 68,
+   "jobs": 44,
    "robotsBlocked": false,
    "error": ""
   }
