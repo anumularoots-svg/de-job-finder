@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-17T04:25:57.544212+00:00",
-  "runStartedAt": "2026-11-17T04:25:21.084451+00:00",
+  "generatedAt": "2026-11-17T15:53:06.032811+00:00",
+  "runStartedAt": "2026-11-17T15:52:11.600352+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 154,
-  "jobCount": 202
+  "recordsFetched": 133,
+  "jobCount": 208
  },
  "sources": {
   "Greenhouse": {
@@ -21,11 +21,12 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 9,
+   "ok": 8,
    "failed": [
+    "zoox",
     "mistral"
    ],
-   "jobs": 8,
+   "jobs": 6,
    "robotsBlocked": false,
    "error": ""
   },
@@ -50,7 +51,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 86,
+   "jobs": 67,
    "robotsBlocked": false,
    "error": ""
   }
