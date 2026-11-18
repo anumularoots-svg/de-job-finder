@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-18T07:09:18.465836+00:00",
-  "runStartedAt": "2026-11-18T07:08:38.086969+00:00",
+  "generatedAt": "2026-11-18T17:10:57.114191+00:00",
+  "runStartedAt": "2026-11-18T17:09:44.781716+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 160,
-  "jobCount": 310
+  "recordsFetched": 147,
+  "jobCount": 343
  },
  "sources": {
   "Greenhouse": {
@@ -25,7 +25,7 @@
    "failed": [
     "mistral"
    ],
-   "jobs": 8,
+   "jobs": 7,
    "robotsBlocked": false,
    "error": ""
   },
@@ -50,7 +50,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 91,
+   "jobs": 79,
    "robotsBlocked": false,
    "error": ""
   }
