@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generatedAt": "2026-11-18T17:10:57.114191+00:00",
-  "runStartedAt": "2026-11-18T17:09:44.781716+00:00",
+  "generatedAt": "2026-11-19T00:14:15.713424+00:00",
+  "runStartedAt": "2026-11-19T00:13:01.146893+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 147,
+  "recordsFetched": 170,
   "jobCount": 343
  },
  "sources": {
@@ -50,7 +50,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 79,
+   "jobs": 102,
    "robotsBlocked": false,
    "error": ""
   }
