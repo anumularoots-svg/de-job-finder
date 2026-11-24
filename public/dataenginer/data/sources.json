@@ -1,10 +1,10 @@
 {
  "meta": {
-  "generatedAt": "2026-11-24T04:42:48.012404+00:00",
-  "runStartedAt": "2026-11-24T04:42:04.624110+00:00",
+  "generatedAt": "2026-11-24T17:29:27.485043+00:00",
+  "runStartedAt": "2026-11-24T17:28:27.556728+00:00",
   "refreshEveryHours": 2,
-  "recordsFetched": 178,
-  "jobCount": 342
+  "recordsFetched": 132,
+  "jobCount": 336
  },
  "sources": {
   "Greenhouse": {
@@ -21,11 +21,12 @@
   "Lever": {
    "type": "ats",
    "companies": 10,
-   "ok": 9,
+   "ok": 8,
    "failed": [
+    "palantir",
     "mistral"
    ],
-   "jobs": 7,
+   "jobs": 6,
    "robotsBlocked": false,
    "error": ""
   },
@@ -50,7 +51,7 @@
   "Adzuna": {
    "type": "aggregator",
    "ok": 1,
-   "jobs": 121,
+   "jobs": 76,
    "robotsBlocked": false,
    "error": ""
   }
